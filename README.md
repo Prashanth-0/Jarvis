@@ -24,3 +24,28 @@ This project implements a voice-controlled AI assistant using Python. The assist
 
    ```bash
    pip install textblob openai termcolor pyttsx3 SpeechRecognition
+
+### Set up your OpenAI API key as an environment variable:
+
+```bash
+export OPENAI_API_KEY="your_openai_api_key"
+```
+
+### Run the script:
+
+```bash
+python3 ai.py
+```
+## Usage
+
+- Speak into the microphone to provide    voice input.
+  
+- The assistant will analyze the          sentiment, interact with GPT-3.5        Turbo, and respond accordingly.
+
+- To exit, say "exit".
+
+## Acknowledgments
+
+- OpenAI for providing the GPT-3.5        Turbo API.
+- TextBlob for sentiment analysis.
+- SpeechRecognition for voice             recognition.
