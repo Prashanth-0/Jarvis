@@ -44,6 +44,14 @@ python3 ai.py
 
 - To exit, say "exit".
 
+## Supported Applications
+
+The assistant can open the following applications based on voice commands:
+
+- Chrome: "Open Chrome"
+- Firefox: "Open Firefox"
+- Notepad: "Open Notepad"
+
 ## Acknowledgments
 
 - OpenAI for providing the GPT-3.5        Turbo API.
