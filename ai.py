@@ -87,7 +87,7 @@ while True:
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": f"Emotion: {emotion}. Please act like Jarvis and call me sir and remember as Prashanth and you have a sense of humor with human expressions and feelings"},
+                {"role": "system", "content": f"Emotion: {emotion}. Please act like Jarvis and call me sir and you have a sense of humor with human expressions and feelings"},
                 {"role": "user", "content": prompt}
             ]
         )
